@@ -1,0 +1,57 @@
+/* Reset & base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  header {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+  }
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main {
+    padding: 2rem;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Pricing table */
+  .pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  .pricing-table th,
+  .pricing-table td {
+    border: 1px solid #ccc;
+    padding: 0.6rem;
+    text-align: center;
+  }
+  .pricing-table thead {
+    background: #f7f7f7;
+  }
+  .pricing-table .divider-row td {
+    background-color: #e0e0e0;
+    border: none;
+    height: 0.5rem;
+    padding: 0;
+  }
+  
